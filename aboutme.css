@@ -1,0 +1,71 @@
+@font-face {
+    font-family:"minikraf";
+    src: url("minecraft.ttf.ttf")
+    /* tambah font kene */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(71, 71, 124);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(gmbr/senkichuu.png);
+    background-position: top;
+    background-size: cover; 
+    position: relative;
+    /* background kene */
+}
+nav{
+    
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"minikraf";
+    /* header */ 
+}
+nav img{
+    width: 150px
+    /* logo */
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: rgb(9, 197, 9);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    /* garis hejo */
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.body{
+    font;
+    
+}
+h1{
+    color: #fff;
+}

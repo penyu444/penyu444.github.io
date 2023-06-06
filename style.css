@@ -1,0 +1,127 @@
+@font-face{
+    font-family: "mtropical";
+    src: url("Banana\ Island\ Personal\ Use.ttf");
+}
+@font-face {
+    font-family: "tropical";
+    src: url("THE TURTLE.ttf");
+}
+
+@font-face {
+    font-family: "maritim";
+    src: url("Tropical\ Land.ttf");
+}
+
+@font-face {
+    font-family:"minikraf";
+    src: url("minecraft.ttf.ttf")
+    /* tambah font kene */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    overflow:auto;
+    width: 100%;
+    background-color: rgb(71, 71, 124);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(gmbr/pulau.png);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    /* background kene */
+}
+nav{
+    
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"minikraf";
+    /* header */ 
+}
+nav img{
+    width: 150px
+    /* logo */
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: rgb(9, 197, 9);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    /* garis hejo */
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    font-family: "tropical";
+    width: 90%;
+    color: #7ffcb7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 72px;
+}
+.text-box p{
+    font-family: "mtropical";
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #30ff8d;
+}
+.hero-btn{
+    color:#fff;
+    position: right;
+    cursor: pointer; 
+}
+.socio-box{
+    font-size: 24px;
+    font-family: "maritim";
+    margin-top: 100px;
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    text-align: left;
+}
+/* below is for mobile support UNFINISHED */
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #1eda8b;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
