@@ -77,3 +77,11 @@ nav img{
     background-position: center;
     background-image:linear-gradient(rgba(9, 31, 17, 0.781),rgba(13, 34, 22, 0.863)),url(gmbr/pasar\ apung.jpg);
 }   
+
+.UI img{
+    transition: 1s;
+}
+
+.UI img:hover{
+    transform: scale(1.1);
+}
