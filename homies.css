@@ -1,4 +1,9 @@
 @font-face {
+    font-family: "maritim";
+    src: url("Tropical\ Land.ttf");
+}
+
+@font-face {
     font-family:"minikraf";
     src: url("minecraft.ttf.ttf")
     /* tambah font kene */
@@ -63,6 +68,8 @@ nav img{
 }
 
 .body{
+    font-size: 25px;
+    font-family: "maritim";
     color: #fff;
     margin-top: 50px;
     margin-bottom: 50px;

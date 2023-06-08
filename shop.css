@@ -71,6 +71,7 @@ nav img{
 }
 
 .body{
+    font-family: "maritim";
     min-height: 100%;
     overflow: none;
     background-size: cover; 

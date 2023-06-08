@@ -69,17 +69,18 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
 .body{
     min-height: 100%;
     overflow: none;
     align-items: center;
-    background-size: cover; 
+    background-size: contain; 
     background-position: center;
     background-image:linear-gradient(rgba(54, 61, 65, 0.815),rgba(48, 56, 63, 0.781)),url(gmbr/ruin.jpg);
-}   
-.ilust img{
-    transition: 1s;
 }
-.ilust img:hover{
-    transform: scale(1.1);
+
+.fonttex{
+    color: #fff;
+    font-family: "maritim";
+
 }
