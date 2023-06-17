@@ -84,3 +84,11 @@ nav img{
     font-family: "maritim";
 
 }
+
+.fonttex img{
+    transition: 1s;
+}
+
+.fonttex img:hover{
+    transform: scale(1.1);
+}

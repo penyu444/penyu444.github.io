@@ -78,3 +78,15 @@ nav img{
     background-position: center;
     background-image:linear-gradient(rgba(54, 61, 65, 0.815),rgba(48, 56, 63, 0.781)),url(gmbr/ruin.jpg);
 }   
+.fonttex{
+    color: #fff;
+    font-family: "maritim";
+
+}
+.fonttex img{
+    transition: 1s;
+}
+
+.fonttex img:hover{
+    transform: scale(1.1);
+}
